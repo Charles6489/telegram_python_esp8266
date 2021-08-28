@@ -93,7 +93,7 @@ def video():
             break
     cv2.destroyAllWindows()
 
-bot = telepot.Bot("1909985851:AAGz-B7Zq_RkcSstrYzF2ubRdEJ4HV1j8UE")
+bot = telepot.Bot("TOKEN")
 bot.message_loop(handle)
 
 client = mqtt.Client()
