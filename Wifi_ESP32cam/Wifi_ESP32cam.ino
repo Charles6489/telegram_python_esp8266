@@ -3,8 +3,8 @@
 #include <esp32cam.h>
 
 // ESTE PROGRAMA ENVIA IMAGEN SI SE COLOCA EN IP WEB, PERO SI SE COLOCA EN PYTHON ENVIA VIDEO POR LAS ITERACIONES. . . (SI FUNCIONA EN PYTHON)
-const char* WIFI_SSID = "Ambafiber Orozco";
-const char* WIFI_PASS = "0939979649";
+const char* WIFI_SSID = "WIFI";
+const char* WIFI_PASS = "CLAVE";
 
 WebServer server(80); //servidor en el puerto 80
 
