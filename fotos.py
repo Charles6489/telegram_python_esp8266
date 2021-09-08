@@ -97,7 +97,7 @@ bot = telepot.Bot("TOKEN")
 bot.message_loop(handle)
 
 client = mqtt.Client()
-client.connect("34.125.125.114", 1883, 60)
+client.connect("ip-servidor", 1883, 60)
 
 # Espera por nuevos mensajes
 while 1:
